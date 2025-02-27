@@ -1,0 +1,4 @@
+.vagrant
+
+# Running on virtual infrastructure generating the hardware-config on the fly is alright
+hardware-configuration.nix
