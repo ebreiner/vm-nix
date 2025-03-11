@@ -17,7 +17,7 @@
   };
   services.openssh.enable = true;
 
-  networking.hostId = "13ed26b9";
+  networking.hostId = "abcd1234"; # TODO: make somehow derivable from some kind of seed like hostname or FQDN sha?
   networking.hostName = "vm-setup";
 
   nix.settings.substituters = [
@@ -38,6 +38,7 @@
 
   users.users.root.openssh.authorizedKeys.keys = [
     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGCw5+kIGKen92h5FHc9gEtEc8sdtpDlAB9nAvcdRw2o emil.breiner99@gmail.com"
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBB2NZZtLTwJZS69fyWvXCHcgE0CUv4lLfBN1M61gtza emil@barney"
   ];
 
   system.stateVersion = "24.11";

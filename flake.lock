@@ -18,11 +18,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1740603184,
-        "narHash": "sha256-t+VaahjQAWyA+Ctn2idyo1yxRIYpaDxMgHkgCNiMJa4=",
+        "lastModified": 1741600792,
+        "narHash": "sha256-yfDy6chHcM7pXpMF4wycuuV+ILSTG486Z/vLx/Bdi6Y=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f44bd8ca21e026135061a0a57dcf3d0775b67a49",
+        "rev": "ebe2788eafd539477f83775ef93c3c7e244421d3",
         "type": "github"
       },
       "original": {
@@ -43,14 +43,15 @@
         "nixpkgs": "nixpkgs_2"
       },
       "locked": {
-        "path": "./flakes/victoria_metrics",
+        "lastModified": 1,
+        "narHash": "sha256-O2C2eukPphP7tcRRM5axt761hAaXY7YzXO6VG9yV5rk=",
+        "path": "/nix/store/i53fnr3ac542dlp4q0w2gmxxwdp7wh9p-source/flakes/victoria_metrics",
         "type": "path"
       },
       "original": {
-        "path": "./flakes/victoria_metrics",
+        "path": "/nix/store/i53fnr3ac542dlp4q0w2gmxxwdp7wh9p-source/flakes/victoria_metrics",
         "type": "path"
-      },
-      "parent": []
+      }
     }
   },
   "root": "root",
